@@ -3,7 +3,7 @@ import numpy as np
 import os
 import sys
 
-directory = os.fsencode("/Users/chaseabrown/Downloads/VisDrone2018-DET-train/images/")
+directory = os.fsencode("./images/")
 numOfFiles = len(os.listdir(directory))
 counter = 0
 for file in os.listdir(directory):
